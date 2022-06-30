@@ -1,0 +1,31 @@
+.listContainerItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  background-color: white;
+}
+.url {
+  align-self: flex-end;
+  text-align: end;
+  margin-left: 10px;
+}
+.head {
+  font-weight: bold;
+}
+.item {
+  height: 20px;
+  margin: 10px;
+  align-self: center;
+  background-color: transparent;
+}
+.df {
+  display: flex;
+  text-align: start;
+  align-items: flex-start;
+}
+.btn {
+  background-color: transparent;
+  margin-right: 10px;
+  border-width: 0px;
+}

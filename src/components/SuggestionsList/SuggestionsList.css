@@ -1,0 +1,39 @@
+.bgContainer {
+  display: flex;
+  height: 140vh;
+  background-color: rgb(134, 163, 189);
+  flex-direction: column;
+  justify-content: flex-start;
+}
+input {
+  align-self: center;
+  width: 30vw;
+  margin-right: 10px;
+}
+.logo {
+  margin-left: 5px;
+}
+button {
+  background-color: transparent;
+  border-width: 1px;
+  align-self: center;
+}
+.icon {
+  background-color: transparent;
+  height: 14px;
+  align-self: center;
+}
+.navBar {
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: cornflowerblue;
+  justify-content: space-between;
+}
+.listContainer {
+  background-color: white;
+
+  margin: 20px;
+  border-radius: 5px;
+}
